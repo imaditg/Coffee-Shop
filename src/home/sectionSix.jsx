@@ -74,10 +74,10 @@ const SectionSix = () =>{
                                 <div className="right-items3">
                                     <p>Extra Sweets:</p>
                                     <div className="items">
-                                        <a href="#">chocolate cookies</a>
-                                        <a href="#">vanila macarons</a>
-                                        <a href="#">rainbow cupcakes</a>
-                                        <a href="#">muffins</a>
+                                        <button type="button" className="chocoCoo">chocolate cookies</button>
+                                        <button type="button" className="vanillaM">vanilla macarons</button>
+                                        <button type="button" className="rainbowCup">rainbow cupcakes</button>
+                                        <button type="button" className="muffins">muffins</button>
                                     </div>
                                 </div>
                                 <div className="right-items4">
@@ -97,16 +97,16 @@ const SectionSix = () =>{
                                 </div>
                                 <div className="box-middle">
                                     <div className="box-middle-items">
-                                        <a href="#"><FiPlus className="plus-icon" /></a>
+                                        <button type="button"><FiPlus className="plus-icon" /></button>
                                         <span>Choice of cooking course </span>
                                     </div>
-                                    <div className="box-middle-items">
-                                        <a href="#"><FiPlus className="plus-icon" /></a>
-                                        <span>all ingredients included </span>
+                                    <div className="box-middle-items middle-borders">
+                                        <button type="button"><FiPlus className="plus-icon" /></button>
+                                        <span>All ingredients included </span>
                                     </div>
                                     <div className="box-middle-items">
-                                        <a href="#"><FiPlus className="plus-icon" /></a>
-                                        <span>watch out for our intoleranees </span>
+                                        <button type="button"><FiPlus className="plus-icon" /></button>
+                                        <span>Watch out for our intoleranees </span>
                                     </div>
                                 </div>
                                 <div className="box-lower">
