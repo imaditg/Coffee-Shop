@@ -1202,6 +1202,87 @@ button:active{
 
 
 
+/* section Eight Start From here */
+
+.home-sect8-outer{
+    display: block;
+    margin-top:100px;
+    overflow: hidden;
+}
+.home-sect8-outer .home-sect8-inner{
+    display: block;
+    position: relative;
+}
+.home-sect8-outer .home-sect8-inner .sect8-img-outer{
+    display: block;
+    position:absolute;
+    top:0%;
+    left:0%;
+}
+.home-sect8-outer .home-sect8-inner .sect8-img-outer img{
+    width:100%;
+}
+.home-sect8-outer .home-sect8-inner .sect8-txt-outer{
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+.home-sect8-outer .home-sect8-inner .sect8-txt-outer .container .visit{
+    display: block;
+    font-family: 'Cormorant', sans-serif;
+    font-size: 55px;
+    color:#ffffff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.home-sect8-outer .home-sect8-inner .sect8-txt-outer .container .check{
+    display: block;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+.home-sect8-outer .home-sect8-inner .sect8-txt-outer .container .play{
+    display: block;
+    text-align: center;
+    color:#ffffff;
+    font-size: 60px;
+    padding-top:25px;
+}
+
+
+/* Section 9 */
+
+.home-sect9-outer{
+    display: block;
+    width:100%;
+    background-color: #2d2d2d;
+}
+.home-sect9-outer .container .home-sect9-inner{
+    display: flex;
+    justify-content: space-between;
+    padding:40px 0px;
+    align-items: center;
+}
+.home-sect9-outer .container .home-sect9-inner h2{
+    font-family: 'Cormorant', sans-serif;
+    font-size: 25px;
+    color:#fff;
+    display: block;
+}
+.home-sect9-outer .container .home-sect9-inner .button{
+    font-family: 'Cormorant', sans-serif;
+    font-size: 20px;
+    padding:10px 10px;
+}
+
+
+
+
 
 /* footer section start from here */
 
@@ -1226,7 +1307,6 @@ button:active{
 
 .footer-outer .footer-inner .container .footer-upper {
     display: flex;
-    margin-top: 100px;
     justify-content: space-between;
     padding-top: 75px;
 }
