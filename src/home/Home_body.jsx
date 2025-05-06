@@ -6,6 +6,8 @@ import SectionFour from './sectionFour';
 import SectionFive from './sectionFive';
 import SectionSix from './sectionSix';
 import SectionSeven from './sectionSeven';
+import SectionEight from './sectionEight';
+import SectionNine from './sectionNine';
 const Home_body = () =>{
     return(
         <>
@@ -16,6 +18,8 @@ const Home_body = () =>{
         <SectionFive />
         <SectionSix />
         <SectionSeven />
+         <SectionEight />
+        <SectionNine />
         </>
     );
 }
